@@ -87,104 +87,121 @@ INSERT INTO tags(tag_name) VALUES ('sunset'), ('photography'), ('sunrise'), ('la
 INSERT INTO photo_tags(photo_id, tag_id) VALUES (1, 18), (1, 17), (1, 21), (1, 13), (1, 19), (2, 4), (2, 3), (2, 20), (2, 2), (3, 8), (4, 12), (4, 11), (4, 21), (4, 13), (5, 15), (5, 14), (5, 17), (5, 16), (6, 19), (6, 13), (6, 17), (6, 21), (7, 11), (7, 12), (7, 21), (7, 13), (8, 17), (8, 21), (8, 13), (8, 19), (9, 18), (10, 2), (11, 12), (11, 21), (11, 11), (12, 4), (13, 13), (13, 19), (14, 1), (14, 20), (17, 19), (17, 13), (17, 18), (19, 5), (21, 20), (21, 3), (21, 1), (21, 4), (22, 7), (22, 5), (22, 6), (23, 18), (23, 19), (23, 13), (23, 21), (24, 12), (24, 13), (24, 21), (25, 8), (25, 21), (25, 10), (26, 20), (26, 21), (26, 8), (26, 9), (26, 10), (28, 9), (28, 10), (29, 8), (29, 21), (29, 9), (29, 20), (30, 7), (30, 6), (30, 5), (31, 7), (31, 5), (32, 10), (32, 9), (32, 21), (32, 8), (32, 20), (34, 11), (34, 13), (34, 12), (35, 6), (35, 7), (35, 5), (36, 5), (36, 7), (36, 6), (37, 18), (37, 21), (37, 13), (38, 3), (38, 2), (43, 11), (43, 21), (43, 12), (44, 20), (44, 10), (45, 3), (45, 1), (47, 20), (49, 21), (49, 18), (50, 5), (51, 21), (51, 8), (51, 20), (53, 8), (55, 12), (56, 11), (57, 13), (57, 18), (57, 21), (57, 19), (57, 17), (58, 8), (59, 20), (59, 9), (59, 10), (59, 21), (60, 16), (60, 15), (60, 17), (61, 20), (61, 10), (62, 2), (63, 6), (64, 12), (64, 13), (64, 21), (64, 11), (65, 7), (65, 5), (66, 15), (66, 17), (68, 11), (68, 21), (70, 21), (70, 12), (70, 11), (71, 14), (71, 15), (71, 16), (72, 20), (72, 8), (72, 21), (73, 13), (73, 21), (74, 16), (74, 15), (75, 1), (75, 20), (75, 4), (76, 11), (76, 12), (78, 16), (78, 17), (78, 15), (79, 6), (79, 5), (79, 7), (83, 1), (83, 3), (84, 17), (84, 18), (84, 13), (85, 20), (85, 1), (85, 3), (86, 13), (87, 12), (87, 13), (87, 21), (88, 18), (88, 17), (90, 14), (90, 17), (91, 3), (91, 4), (91, 1), (92, 19), (93, 17), (93, 21), (93, 13), (93, 18), (94, 19), (94, 18), (94, 13), (94, 17), (94, 21), (95, 18), (95, 19), (95, 17), (95, 21), (95, 13), (96, 15), (96, 17), (97, 7), (97, 5), (97, 6), (98, 16), (98, 15), (98, 14), (98, 17), (100, 20), (101, 14), (101, 16), (102, 14), (102, 16), (102, 15), (103, 5), (107, 11), (107, 12), (107, 21), (108, 11), (109, 9), (109, 8), (109, 10), (110, 2), (111, 17), (111, 15), (111, 14), (111, 16), (112, 21), (112, 9), (112, 20), (116, 7), (117, 21), (118, 20), (118, 4), (118, 1), (120, 21), (120, 19), (120, 17), (121, 21), (121, 13), (121, 11), (121, 12), (122, 15), (123, 17), (123, 14), (123, 15), (124, 15), (124, 16), (124, 17), (125, 11), (125, 12), (126, 2), (126, 3), (126, 4), (127, 21), (131, 5), (132, 19), (132, 17), (132, 13), (132, 18), (132, 21), (133, 15), (133, 17), (133, 16), (133, 14), (134, 21), (134, 11), (134, 12), (134, 13), (135, 17), (136, 8), (136, 9), (136, 21), (136, 20), (136, 10), (137, 11), (137, 13), (137, 21), (137, 12), (138, 9), (138, 20), (138, 10), (139, 5), (140, 11), (140, 12), (141, 17), (142, 21), (142, 20), (145, 18), (145, 13), (145, 19), (145, 17), (145, 21), (147, 5), (148, 11), (149, 20), (149, 4), (149, 1), (149, 2), (152, 16), (152, 17), (152, 15), (152, 14), (153, 15), (153, 16), (153, 17), (153, 14), (154, 21), (155, 10), (155, 21), (155, 20), (155, 9), (155, 8), (156, 6), (156, 5), (157, 13), (157, 11), (157, 12), (157, 21), (158, 15), (159, 5), (160, 5), (161, 11), (162, 15), (162, 14), (162, 17), (163, 21), (163, 13), (163, 19), (166, 13), (166, 17), (168, 6), (168, 5), (169, 12), (171, 10), (171, 21), (171, 9), (171, 8), (171, 20), (172, 15), (172, 16), (172, 14), (173, 16), (173, 15), (173, 17), (174, 5), (175, 17), (175, 18), (177, 15), (177, 17), (178, 16), (181, 5), (181, 7), (182, 8), (182, 10), (182, 20), (182, 21), (183, 5), (184, 13), (184, 21), (184, 12), (185, 20), (185, 8), (185, 21), (185, 9), (185, 10), (188, 13), (188, 21), (188, 11), (189, 10), (189, 8), (189, 20), (190, 17), (190, 18), (191, 5), (191, 6), (194, 1), (197, 13), (197, 18), (197, 21), (197, 19), (199, 11), (199, 13), (201, 3), (201, 4), (201, 2), (201, 1), (201, 20), (202, 21), (202, 18), (202, 19), (202, 17), (203, 17), (203, 19), (203, 18), (205, 18), (205, 21), (205, 17), (206, 14), (207, 13), (207, 21), (208, 4), (208, 20), (209, 20), (209, 3), (209, 2), (210, 2), (210, 1), (211, 18), (211, 13), (212, 8), (212, 21), (212, 20), (212, 9), (214, 14), (214, 15), (214, 17), (214, 16), (216, 3), (216, 1), (218, 8), (218, 20), (219, 17), (219, 19), (219, 13), (219, 21), (219, 18), (220, 2), (220, 3), (220, 20), (220, 4), (221, 12), (221, 13), (221, 21), (222, 7), (225, 7), (226, 12), (226, 13), (226, 21), (226, 11), (227, 2), (227, 3), (227, 4), (227, 1), (227, 20), (228, 20), (230, 10), (230, 21), (230, 9), (230, 8), (230, 20), (231, 3), (231, 4), (231, 1), (232, 8), (232, 10), (232, 20), (232, 21), (232, 9), (233, 3), (233, 1), (233, 2), (233, 20), (235, 10), (237, 10), (237, 20), (238, 1), (238, 4), (238, 3), (238, 2), (238, 20), (239, 17), (239, 21), (239, 18), (240, 20), (240, 4), (242, 1), (242, 20), (242, 4), (242, 2), (243, 1), (244, 7), (244, 5), (244, 6), (247, 16), (247, 14), (248, 10), (248, 9), (249, 7), (249, 5), (250, 14), (250, 16), (250, 15), (251, 11), (253, 7), (254, 4), (254, 2), (254, 20), (254, 3), (257, 13), (257, 19), (257, 18)
 
 
-/*5 oldest users of insatagram*/
-select a.*
-from users as a
-order by a.created_at
-limit 5
+use ig_clone;
 
+/* We want to reward the user who has been around the longest, Find the 5 oldest users. */
 
-/* users that never uploaded photo */
-ALTER TABLE users RENAME COLUMN id TO user_id;
-
-select a.user_id, a.uploaded_date, a.name
+with ranked_users as (
+select *, dense_rank() over(order by created_at, interval_days desc) as user_rank
 from (
-select photos.created_dat as uploaded_date, users.username as name, users.user_id
-from photos
-left outer join users on photos.user_id=users.user_id
-union
-select photos.created_dat as uploaded_date, users.username as name, users.user_id
-from photos
-right outer join users on photos.user_id=users.user_id) as a
-where a.uploaded_date is null
-
-
-table likes;
-
-/* number of photos uploaded by each user */
-select user_id,
-count(user_id) as num_photo_uploaded
-from photos
-group by user_id
-
-
-/* users having most likes in photo */
-select a.user_id, a.num_of_likes
-from (
-select user_id,
-sum(photo_id) as num_of_likes
-from likes
-group by user_id
-ORDER BY num_of_likes desc) as a  
-where a.num_of_likes='33153'
-
-table photos;
-ALTER TABLE photos RENAME COLUMN id TO photo_id;
-table likes;
-/* users having maximun likes in a single photo */
-select distinct 
-a.photo_id,
-a.user_id as likes_by_user,
-photos.user_id
-from (
-select *
-from likes
-group by photo_id ) as a
-join photos
-on a.photo_id = photos.photo_id
-where a.user_id = '5'
-
-ALTER TABLE tags RENAME COLUMN tag_id TO tag_name;
-ALTER TABLE tags RENAME COLUMN id TO tag_id;
-table tags
-
-/* top 5 tags used most in the photos */
-select 
-a.tag_id, b.tag_name, count(a.tag_id) as tags_used
-from photo_tags as a
-join tags as b 
-on a.tag_id = b.tag_id
-group by a.tag_id 
-order by tags_used desc
-limit 5
-
-
-/* days in which more user registered */
-select count(a.user_id) as num_user_registered , DATE_FORMAT(a.date,'%a, %Y %M') as date
-from (
-select user_id, username, 
-cast(created_at as date) as date
+select *, now() as present_date, datediff(now(),created_at) as interval_days 
 from users
 ) a
-group by a.date
-order by num_user_registered desc
-limit 9
+)
+select *
+from ranked_users
+where user_rank <=5;
 
-/*  avg photo uploaded by users */
-select num_of_users,
-total_photos_uploaded,
-total_photos_uploaded / num_of_users as avg_photo_uploaded
-from (
-select count( distinct user_id) as num_of_users,
-count(user_id) as total_photos_uploaded
-from photos) as a
 
-/* bots n fake account */
-select user_id,
-likes_by_user
+/* To target inactive users in an email ad campaign, find the users who have never posted a photo. */
+
+select u.id, u.username, p.image_url, p.user_id 
+from users u 
+left join photos p 
+on u.id = p.user_id
+where p.image_url is null;
+
+
+/* Suppose you are running a contest to find out who got the most likes on a photo. Find out who won? */
+
+with image_ranking as (
+select *, dense_rank() over(order by likes_count desc) as ranking
 from (
-select user_id,
-count(photo_id) as likes_by_user
+select p.id as photo_id, p.user_id, count(l.user_id) as likes_count
+from photos p
+inner join likes l 
+on p.id = l.photo_id
+group by p.id
+order by count(l.user_id) desc) a
+)
+select *
+from image_ranking
+where ranking = 1;
+
+
+/* The investors want to know how many times does the average user post. */
+
+select round(avg(photo_count)) as avg_user_post
+from (
+select user_id, count(id) as photo_count
+from photos
+group by user_id) a;
+
+
+
+
+select round((select count(*) from photos)/(select count(*) from users),2) as avg_count;
+
+/* A brand wants to know which hashtag to use on a post, and find the top 5 most used hashtags. */
+
+with ranking as(
+select *, dense_rank() over(order by tags_used desc) as tag_ranking
+from (
+select tag_name, count(photo_id) as tags_used
+from photo_tags pt
+inner join tags t
+on pt.tag_id = t.id
+group by tag_name
+order by tags_used desc) a
+)
+select *
+from ranking
+where tag_ranking <=5;
+
+
+/* To find out if there are bots, find users who have liked every single photo on the site. */
+
+select *, case
+             when likes_count = (select count(*) from photos) then 'bots'
+             else 'real_user'
+             end as user_verification
+from (             
+select user_id, count(photo_id) as likes_count
 from likes
-group by user_id) as a
-where likes_by_user = '257';
+group by user_id) a
+order by user_verification;
+
+
+/* Find the users who have created instagramid in may and select top 5 newest joinees from it? */
+
+with new_joinees as (
+select *, date_format(created_at,'%b') as joined_month, dense_rank() over(order by created_at desc) as ranking
+from users
+where date_format(created_at,'%b') = 'May'
+)
+select *
+from new_joinees
+where ranking <= 5;
+
+
+/* Can you help me find the users whose name starts with c and ends with any number and have posted the photos as well as liked the photos? */
+
+select distinct u.*
+from users u
+inner join photos p 
+on u.id = p.user_id
+inner join likes l 
+on u.id = l.user_id
+where u.username regexp '^C.*[0-9]$';
+
+
+/* Demonstrate the top 30 usernames to the company who have posted photos in the range of 3 to 5. */
+
+select u.id, u.username, count(p.id) as photo_count
+from users u
+inner join photos p 
+on u.id = p.user_id
+group by u.id, u.username
+having count(p.id) between 3 and 5
+order by photo_count desc
+limit 30;
